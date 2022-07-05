@@ -8,4 +8,5 @@ const PersonSchema = new Schema({
     age:Number,
     favoriteFoods:[String]
 })
+
 module.exports = mongoose.model('Person', PersonSchema)
